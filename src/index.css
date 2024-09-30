@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  height: auto;
+}
+
+.custom-shape-divider-bottom-1727599130 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1727599130 svg {
+  position: relative;
+  display: block;
+  width: calc(124% + 1.3px);
+  height: auto;
+}
+
+.custom-shape-divider-bottom-1727599130 .shape-fill {
+  fill: #ffffff;
+}
+
+/* offer shape css */
+.custom-shape-divider-bottom-1727679726 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1727679726 svg {
+  position: relative;
+  display: block;
+  width: calc(160% + 1.3px);
+  height: 500px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1727679726 .shape-fill {
+  fill: #68C2DA;
+}
